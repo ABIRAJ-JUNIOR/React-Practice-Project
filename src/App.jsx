@@ -1,10 +1,12 @@
-import { useState } from 'react'
+import { Fragment } from "react"
+import { LearnComponent } from "./components/LearnComponent"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div>Abiraj</div>
+    <Fragment>
+      <div>Abiraj</div>
+      <LearnComponent />
+    </Fragment>
   )
 }
 
